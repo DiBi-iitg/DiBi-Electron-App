@@ -55,7 +55,7 @@ const AmountSold = (props) => {
 
           <Bar
             height={150}
-            label={{ fontSize: 10, position: "top", color: "white" }}
+            label={{ fontSize: 10, position: "top", fill: "white" }}
             dataKey="sell"
             fill="#22AFFF"
           />
