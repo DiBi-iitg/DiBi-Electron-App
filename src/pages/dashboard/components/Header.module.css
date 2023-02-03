@@ -1,0 +1,72 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+
+
+
+
+.main-header {
+    display: flex;
+    margin-left: 14rem;
+    margin-right: 6rem;
+    padding-top: 2.4rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+
+}
+.t1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #AFAFAF;
+}
+.t2{
+      font-family: "Ridley-grotesk", sans-serif;
+      color: #F2F2F2;
+      font-size: 2.6rem;
+
+}
+.trailing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.search{
+    width: 40rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 0 6rem;
+    background: url("../../../assets/search.png") no-repeat 4% 50%;
+    background-color: #232323;
+
+}
+.search:focus {
+
+}
+
+.dp {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    background: url("../../../assets/dp.png");
+    background-position: center;
+    background-size: 100%;
+    
+    background-color: #232323;
+
+    
+}

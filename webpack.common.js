@@ -8,6 +8,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(jpg|png|svg|gif)$/,
+        type: "asset/resource",
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
@@ -26,17 +30,6 @@ module.exports = {
             ],
           },
         },
-      },
-      {
-        test: /\.svg$/,
-        use: [
-          {
-            loader: "svg-url-loader",
-            options: {
-              limit: 10000,
-            },
-          },
-        ],
       },
 
       {

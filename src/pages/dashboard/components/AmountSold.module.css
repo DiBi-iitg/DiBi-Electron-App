@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@font-face {
+    font-family: HK-Grotesk-Medium-Legacy;
+    src: url("../../../fonts/hk-grotesk/HKGrotesk-MediumLegacy.otf")
+    format("opentype");
+
+  
+}
+
+.amount {
+    font-size: 1rem;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.title-text {
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.date {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3rem;
+
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "HK-Grotesk-Medium-Legacy",sans-serif;
+    font-size: 1.4rem;
+}

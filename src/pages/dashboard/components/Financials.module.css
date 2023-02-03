@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+
+.title {
+  font-family: "Ridley-grotesk";
+  letter-spacing: 0.1rem;
+
+  color: #eef8ff;
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.finances {
+  display: flex;
+  gap: 2rem;
+}

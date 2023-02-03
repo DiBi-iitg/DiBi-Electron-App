@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: HK-Grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/hk-grotesk/HKGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HK-Grotesk;
+    font-weight: 300 ;
+    src: url("../../../fonts/hk-grotesk/HKGrotesk-Light.otf")
+    format("opentype");
+  
+}
+@font-face {
+    font-family: HK-Grotesk;
+    font-weight: 600;
+    src: url("../../../fonts/hk-grotesk/HKGrotesk-Medium.otf")
+    format("opentype");
+  
+}
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+.bill-btn {
+  display: flex;
+  align-items: center;
+  padding-left: 0.3rem;
+
+  border: 0.6px solid #eef8ff;
+  border-radius: 0.8rem;
+  width: 10rem;
+  height: 4rem;
+  color: white;
+  font-size: 1.4rem;
+  font-family: "HK-Grotesk",sans-serif;
+  gap: 1rem;
+}
+
+.title {
+  font-family: "Ridley-grotesk",sans-serif;
+  font-size: 2.2rem;
+
+  color: white;
+  margin-left: 0.8rem;
+  margin-top: 1.2rem;
+}
+.arrow {
+  padding-right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.6px solid #eef8ff;
+}
+.consumer-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.consumer-detail{
+  display: flex;
+  flex-direction: column;
+}
+.main-title{
+  font-family: "HK-Grotesk",sans-serif;
+  color: white;
+  font-size: 2.4rem;
+
+}
+.sub-title {
+  font-family: "HK-Grotesk",sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #bdc6d0;
+
+
+
+}
+.detail-row {
+    display: flex;
+    justify-content: end;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+.details {
+    text-decoration: none;
+    color: #22AFFF;
+    font-size: 1.2rem;
+}
+.price {
+  font-family: "HK-Grotesk";
+  font-weight: 600;
+
+  color: white;
+  font-size: 2.8rem;
+}
+
+.details-date {
+    display: flex;
+    height: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.date-time {
+    font-family: "HK-Grotesk-Medium-Legacy",sans-serif;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.divider {
+  position: absolute;
+  width: 0.1rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color: #6F6F6F;
+  left: 70%;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 50rem;
+  overflow-y:scroll ;
+}
+

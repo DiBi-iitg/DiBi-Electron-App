@@ -6,7 +6,8 @@
 }
 
 .sidebar {
-  height: 80vh;
+  position: fixed;
+  height: 80%;
   width: 8rem;
   background-color: #3d3d3d;
   border-bottom-right-radius: 1rem;
@@ -14,9 +15,9 @@
 .list {
   width: 100%;
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   flex-direction: column;
-  margin: 2rem auto;
+  padding-top: 2rem;
   align-items: center;
 }
 .title {
@@ -33,17 +34,19 @@
   padding-bottom: 2rem;
   padding-left: 1.4rem;
   margin-bottom: -2rem;
-    
+
   /* margin-right:rem; */
 }
 
 .selected {
-    background-image: url("../../../assets/selected.png");
-
+  background-image: url("../../../assets/selected.png");
 }
 
 .icon {
   display: block;
   width: 4rem;
-
+}
+.icon-selected {
+  filter: invert(48%) sepia(98%) saturate(1292%) hue-rotate(178deg)
+    brightness(105%) contrast(101%);
 }

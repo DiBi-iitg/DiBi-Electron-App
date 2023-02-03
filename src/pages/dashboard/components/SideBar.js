@@ -7,9 +7,7 @@ const SideBar = () => {
   const [selected, setSelected] = useState(0);
 
   const toggleHandler = () => {
-
-      setSelected((selected) => 1 - selected);
-
+    setSelected((selected) => 1 - selected);
   };
 
   return (
@@ -22,7 +20,12 @@ const SideBar = () => {
           }`}
           onClick={toggleHandler}
         >
-          <img className={styles.icon} src={dashBoardIcon}></img>
+          <img
+            className={`${styles.icon} ${
+              selected === 0 ? styles["icon-selected"] : ""
+            }`}
+            src={dashBoardIcon}
+          ></img>
         </div>
         <div
           className={`${selected === 1 ? styles["selected"] : ""} ${
@@ -30,7 +33,12 @@ const SideBar = () => {
           } `}
           onClick={toggleHandler}
         >
-          <img className={styles.icon} src={profileIcon}></img>
+          <img
+            className={`${styles.icon} ${
+              selected === 1 ? styles["icon-selected"] : ""
+            }`}
+            src={profileIcon}
+          ></img>
         </div>
       </div>
     </div>
