@@ -6,22 +6,16 @@
 }
 
 @font-face {
-    font-family: HK-Grotesk-Medium-Legacy;
-    src: url("../fonts/hk-grotesk/HKGrotesk-MediumLegacy.otf")
-    format("opentype");
-
-  
+  font-family: HK-Grotesk-Medium-Legacy;
+  src: url("../fonts/hk-grotesk/HKGrotesk-MediumLegacy.otf") format("opentype");
 }
 @font-face {
-    font-family: HK-Grotesk;
-    font-weight: regular;
-    src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf")
-    format("opentype");
-
-  
+  font-family: HK-Grotesk;
+  font-weight: regular;
+  src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf") format("opentype");
 }
 .customer-count {
-  height: 42.5rem;
+  height: 42rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,78 +29,68 @@
   font-size: 1.8rem;
 }
 .donut {
-    margin: 0 auto;
-  
-    position: relative;
+  margin: 0 auto;
+  position: relative;
 }
 
 .detail-row {
-    display: flex;
-    justify-content: end;
-
-
+  display: flex;
+  justify-content: end;
 }
-.label{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 2rem;
-    transform: translate(-50%, -50%);
-    font-family: "HK-Grotesk-Medium-Legacy",sans-serif;
-    font-size: 2.2rem;
-    color: #EEF8FF;
-
-
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  font-family: "HK-Grotesk-Medium-Legacy", sans-serif;
+  font-size: 2.2rem;
+  color: #eef8ff;
 }
-.color-palette{
-    display: flex;
-    justify-content: space-between;
+.color-palette {
+  display: flex;
+  justify-content: space-between;
 }
 
 .details {
-    text-decoration: none;
-    color: #22AFFF;
-    font-size: 1.2rem;
+  text-decoration: none;
+  color: #22afff;
+  font-size: 1.2rem;
 }
-.flex{
-    display: flex;
-    align-items: center;
-    
+.flex {
+  display: flex;
+  align-items: center;
 }
-.color-palette{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.color-palette {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.color-segment{
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
+.color-segment {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 .color-text {
-    font-family: 'HK-Grotesk',sans-serif;
-    color: white;
-    font-size: 1.3rem;
+  font-family: "HK-Grotesk", sans-serif;
+  color: white;
+  font-size: 1.3rem;
 }
-.palette{
-    width: 1.5rem;
-    height: 0.8rem;
+.palette {
+  width: 1.5rem;
+  height: 0.8rem;
 
-    border-radius: 0.4rem;
+  border-radius: 0.4rem;
 }
-.blue1{
-    background-color: #172A73;
-
-
+.blue1 {
+  background-color: #172a73;
 }
 .dim {
-    background-color: #85B6FF;
+  background-color: #85b6ff;
 }
-.white1{
-    background-color: white;
+.white1 {
+  background-color: white;
 }
 .ocean {
-    background-color: #22AFFF;
-
+  background-color: #22afff;
 }
-

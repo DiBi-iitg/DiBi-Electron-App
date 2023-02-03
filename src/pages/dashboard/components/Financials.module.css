@@ -4,18 +4,24 @@
   src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
     format("opentype");
 }
+.financials{
 
+  padding: 1.6rem 2.2rem;
+  border-radius: 0.8rem;
+
+  background-color: #232323;
+}
 .title {
   font-family: "Ridley-grotesk";
   letter-spacing: 0.1rem;
-
   color: #eef8ff;
   font-size: 1.8rem;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .finances {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
 }

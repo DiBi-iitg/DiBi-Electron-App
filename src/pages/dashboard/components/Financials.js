@@ -6,13 +6,15 @@ import AmountSold from "./AmountSold";
 
 const Financials = () => {
   return (
-    <Card dark={true}>
-      <span className={styles.title}>Total Financials</span>
-      <div className={styles.finances}>
-        <AmountSold sold={true} />
-        <AmountSold />
+    
+      <div className={styles.financials}>
+        <span className={styles.title}>Total Financials</span>
+        <div className={styles.finances}>
+          <AmountSold sold={true} />
+          <AmountSold />
+        </div>
       </div>
-    </Card>
+
   );
 };
 
