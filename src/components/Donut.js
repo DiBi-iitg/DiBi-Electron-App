@@ -8,7 +8,7 @@ import arrow from "../assets/arrow.svg";
 const Donut = (props) => {
   let consumer = props.consumer;
   const data = [
-    { name: "A", x: props.a, fill: "#EEF8FF" },
+    { name: "A", x: props.a, fill: "#ced4da" },
     { name: "B", x: props.b, fill: "#22AFFF" },
     { name: "C", x: props.c, fill: "#85B6FF" },
     { name: "D", x: props.d, fill: "#172A73" },
@@ -25,8 +25,10 @@ const Donut = (props) => {
           <span className={styles.label}>
             {consumer ? (
               <div className={styles["center-div"]}>
-                <span>2000</span>
-                <span className={styles['center-subheading']}>Items Purchased</span>
+                <span>23,00,100</span>
+                <span className={styles["center-subheading"]}>
+                  Items Purchased
+                </span>
               </div>
             ) : (
               "$2000"

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./MainPage.module.css";
 import Donut from "../../components/Donut";
 import Reminders from "./components/Reminders";
-import CustomerCount from "./components/CustomerCount";
+
 import Financials from "./components/Financials";
 import BillReport from "./components/BillReport";
 import ConsumerDetails from "./components/ConsumerDetails";
@@ -13,7 +13,7 @@ const MainPage = () => {
       <Financials />
 
       <div className={styles.e1}>
-        <CustomerCount />
+
       </div>
       <div className={styles.e2}>
         <Donut a={60} b={80} c={70} d={90} />
