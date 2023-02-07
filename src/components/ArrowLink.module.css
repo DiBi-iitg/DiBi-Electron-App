@@ -1,0 +1,10 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  text-decoration: none;
+  color: #22afff;
+  font-size: 1.2rem;
+}

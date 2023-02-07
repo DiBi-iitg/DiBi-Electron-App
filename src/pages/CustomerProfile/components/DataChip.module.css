@@ -1,29 +1,19 @@
-@font-face {
-  font-family: Ridley-grotesk;
-  font-weight: regular;
-  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
-    format("opentype");
-}
-
-@font-face {
-  font-family: HK-Grotesk-Medium-Legacy;
-  src: url("../../../fonts/hk-grotesk/HKGrotesk-MediumLegacy.otf") format("opentype");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap');
 
 .chip {
     display: flex;
-    justify-content: space-around;
-    align-items: start;
-    height: 8rem;
+   
+    width: 25rem;
     gap: 1.5rem;
     background-color: #E5E5E7;
     border-radius: 0.5rem;
-
+   padding: 1.5rem;
 }
 .front-row {
     display: flex;
     gap: 0.6rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .data {
@@ -35,11 +25,13 @@
 }
 
 .main-data{
-    font-family: 'Ridley-grotesk',sans-serif;
-    font-size: 1.6rem;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 .sub-data {
-    font-family: "HK-Grotesk-Medium-Legacy",sans-serif;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
     font-size: 3.2rem;
     
 }

@@ -5,12 +5,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(31, 166, 88, 0.2);
     border-radius: 0.4rem;
     height: 2.5rem;
     width: 6.4rem;
     font-family: 'Lato';
     font-size: 1.4rem;
-    color: #198547;
     padding: 1rem 0.7rem;
+}
+
+.increase {
+    background-color: rgba(31, 166, 88, 0.2);
+    color: #198547;
+}
+
+.decrease {
+    background-color:rgba(192, 57, 43, 0.2);
+    color: #C0392B;
+
 }
