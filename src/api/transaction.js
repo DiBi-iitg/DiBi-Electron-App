@@ -16,7 +16,7 @@ async function createTransaction(_data, access_token) {
 
 async function getAllTransactions(_data, access_token) {
 	try {
-		const { data } = await axios.post(`${rootUrl}/api/auth/transaction/all`, _data, {
+		const { data } = await axios.post(`${rootUrl}/api/transaction/all`, _data, {
 			headers: {
 				Authorization: `Token ${access_token}`,
 			},

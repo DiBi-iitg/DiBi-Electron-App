@@ -4,17 +4,17 @@ import styles from "./DataChip.module.css";
 import IncreaseCard from "../../../components/increase";
 
 const DataChip = (props) => {
-  return (
-    <div className={styles.chip}>
-      <div className={styles.data}>
-        <div className={styles["front-row"]}>
-          <span className={styles["main-data"]}>{props.title}</span>
-          <IncreaseCard increase = {props.increase} percent={props.percent}/>
-        </div>
-        <span className={styles["sub-data"]}>{props.stat}</span>
-      </div>
-    </div>
-  );
+	return (
+		<div className={styles.chip}>
+			<div className={styles.data}>
+				<div className={styles["front-row"]}>
+					<span className={styles["main-data"]}>{props.title}</span>
+					<IncreaseCard increase={props.increase} percent={props.percent} />
+				</div>
+				<span className={styles["sub-data"]}>&#x20B9; {props.stat}</span>
+			</div>
+		</div>
+	);
 };
 
 export default DataChip;
