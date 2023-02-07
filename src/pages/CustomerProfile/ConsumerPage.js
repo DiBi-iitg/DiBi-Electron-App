@@ -2,16 +2,16 @@ import React from "react";
 import styles from "./ConsumerPage.module.css";
 import Card from "../../components/Card";
 import Donut from "../../components/Donut";
-import CustomersList from "./components/CustomersList";
 import TotalFinancials from "./components/TotalFinancials";
 import CustomerDashboardCard from "./components/CustomerDashboardCard";
 import Reminders from "../Dashboard/components/Reminders";
 import BillReport from "../Dashboard/components/BillReport";
 import { useState, useEffect } from "react";
 import TransactionAPI from "../../api/transaction";
+
+
 const ConsumerPage = () => {
 	let fetchedTxns = [];
-
 	const [txns, setTxns] = useState([]);
 	const [netAmtSold, setNetAmtSold] = useState(2075500);
 	const [totalCustomers, setTotalCustomers] = useState(870);
@@ -102,5 +102,4 @@ const ConsumerPage = () => {
 		</div>
 	);
 };
-
 export default ConsumerPage;

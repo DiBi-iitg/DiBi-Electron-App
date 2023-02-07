@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Ridley-grotesk;
+    font-weight: regular;
+    src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+      format("opentype");
+  }
+
+.header
+{
+    display: flex;
+    gap: 10rem;
+}
+.eleh1
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+}
+.eleh2
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+}
+.eleh3
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-50%);}
+.eleh4
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-60%);
+    
+}
+.eleh5
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-40%);
+}
+.eleh6
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-40%);
+}
+.eleh7
+{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translateX(-60%);
+}
+.elec
+{
+    
+    font-size: 1.7rem;
+    /* text-align: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    
+}
+.widehr
+{
+    width: 125rem;
+    padding-right:-200rem;
+}
+.content
+{
+    display: flex;
+    gap: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.green
+{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #198547;
+    background-color:#BDD8CA;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.red
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgb(192,57,43,0.2);
+    color:#C0392B;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.orange
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgb(192,97,43,0.2);
+    color:rgb(192,97,43);
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.blue
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgb(0,156,222,0.2);
+    color:rgb(0,156,222);
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}

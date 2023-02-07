@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Ridley-grotesk;
+    font-weight: regular;
+    src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+      format("opentype");
+  }
+
+.header{
+    gap: 10rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    
+}
+td{
+    padding-right: 10rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.sptd
+{
+    border-bottom: #161616 1px solid;
+}
+
+.content
+{
+    gap: 15rem;
+    font-size: 1.7rem;
+    
+    justify-content: center;
+    
+}
+.widehr
+{
+    width:25rem;
+}
+.green
+{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #198547;
+    background-color:#BDD8CA;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.red
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgb(192,57,43,0.2);
+    color:#C0392B;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.orange
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: rgb(192,97,43,0.2);
+    color:rgb(192,97,43);
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+.grey
+{
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #E5E5E7;
+    
+    color:#161616;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    /* padding-right:-10rem; */
+}

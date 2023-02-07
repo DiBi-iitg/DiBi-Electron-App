@@ -10,7 +10,7 @@ const Header = (props) => {
           {props.consumer ? "Welcome Back to," : "Welcome Back,"}
         </span>
         <span className={styles.t2}>
-          {props.consumer ? "Consumer Profile" : "Rishikesh Kumar"}
+          {props.consumer ? "Consumer Profile" : "Rishikesh Kumar"}👋
         </span>
       </div>
       <div className={styles.trailing}>

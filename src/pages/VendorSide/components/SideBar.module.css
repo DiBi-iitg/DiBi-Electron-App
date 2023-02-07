@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 8rem;
+    background-color: #E5E5E7;
+  border-bottom-right-radius: 1rem;
+}
+.list {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding-top: 2rem;
+  align-items: center;
+}
+.title {
+  display: block;
+  color: #020617;
+  font-family: Ridley-Grotesk;
+  font-size: 2rem;
+}
+.icon-div {
+  width: 7rem;
+  height: 8rem;
+  margin-right: -1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.4rem;
+  margin-bottom: -2rem;
+
+  /* margin-right:rem; */
+}
+
+.selected {
+  background-image: url("../../../assets/selected.png");
+}
+
+.icon {
+  display: block;
+  width: 4rem;
+}
+.icon-selected {
+  filter: invert(48%) sepia(98%) saturate(1292%) hue-rotate(178deg)
+    brightness(105%) contrast(101%);
+}

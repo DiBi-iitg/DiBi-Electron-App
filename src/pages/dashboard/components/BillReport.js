@@ -4,9 +4,6 @@ import styles from "./BillReport.module.css";
 import arrow from "../../../assets/arrow-down.svg";
 import ArrowLink from "../../../components/ArrowLink";
 
-import { useState, useEffect } from "react";
-import TransactionAPI from "../../../api/transaction";
-
 const BillReport = ({ txns = [] }) => {
 	let rows = [];
 

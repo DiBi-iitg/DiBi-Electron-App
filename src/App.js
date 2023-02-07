@@ -5,10 +5,11 @@ import Header from "./components/Header";
 import MainPage from "./pages/dashboard/MainPage";
 import img from "./assets/filter.png";
 import img1 from './assets/arrow-down-black.svg'
-import ConsumerPage from "./pages/CustomerProfile/ConsumerPage";
+import VendorPage from './pages/VendorSide/VendorPage'
+import ConsumerPage from './pages/CustomerProfile/ConsumerPage'
 
 const App = () => {
-  const [selected, setSelected] = useState(1);
+  const [selected, setSelected] = useState(0);
 
   const toggleHandler = (number) => {
     setSelected(number);
@@ -33,7 +34,8 @@ const App = () => {
             )}
           </div>
         </button>
-        {selected === 0 ? <MainPage /> : <ConsumerPage />}
+        <VendorPage/>
+        {/* {selected === 0 ? <MainPage /> : <ConsumerPage />} */}
       </div>
     </>
   );
