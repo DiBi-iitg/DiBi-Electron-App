@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: HK-Grotesk-Medium-Legacy;
+  src: url("../../../fonts/hk-grotesk/HKGrotesk-MediumLegacy.otf") format("opentype");
+}
+
+
+.chip {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 8rem;
+    gap: 1.5rem;
+    background-color: #E5E5E7;
+    border-radius: 0.5rem;
+
+}
+.front-row {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color: #020617;
+
+}
+
+.main-data{
+    font-family: 'Ridley-grotesk',sans-serif;
+    font-size: 1.6rem;
+}
+.sub-data {
+    font-family: "HK-Grotesk-Medium-Legacy",sans-serif;
+    font-size: 3.2rem;
+    
+}

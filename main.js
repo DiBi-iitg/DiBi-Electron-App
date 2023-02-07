@@ -1,6 +1,7 @@
 const { app, BrowserWindow, Menu, Notification } = require("electron");
 const path = require('path');
 const isDev = !app.isPackaged;
+const {getTransactions} = require('./api/api');
 
 const { template } = require("./data/menu");
 
@@ -26,6 +27,7 @@ if(isDev){
 }
 
 app.whenReady().then(() => {
+  getTransactions();
   createWindow();
 
   // const notification = new Notification({

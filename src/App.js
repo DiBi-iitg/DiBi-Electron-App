@@ -1,10 +1,32 @@
-import React from 'react'
-import styles from './App.module.css'
+import React, { useState } from "react";
+import SideBar from "./pages/dashboard/components/SideBar";
+import styles from "./App.module.css";
+import Header from "./components/Header";
+import MainPage from "./pages/dashboard/MainPage";
+import img from "./assets/filter.png";
+import ConsumerPage from "./pages/CustomerProfile/ConsumerPage";
 
 const App = () => {
+  const [selected, setSelected] = useState(1);
+
+  const toggleHandler = (number) => {
+    setSelected(number);
+  };
   return (
-    <div className={styles.app}>App</div>
-  )
-}
+    <>
+      <SideBar toggleHandler={toggleHandler} selected={selected} />
+      <div className={styles.body}>
+        <Header consumer={selected!==0}/>
+        <button className={styles.filter}>
+          <div className={styles["filter-row"]}>
+            <img src={img} />
+            <span>Filter</span>
+          </div>
+        </button>
+        {selected === 0 ? <MainPage /> : <ConsumerPage />}
+      </div>
+    </>
+  );
+};
 
 export default App;

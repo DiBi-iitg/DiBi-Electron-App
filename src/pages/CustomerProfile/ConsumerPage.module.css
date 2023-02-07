@@ -1,0 +1,17 @@
+.cp-grid {
+    margin-left: 14rem;
+    margin-right: 6rem;
+    display: grid;
+    grid-template-columns: 600fr 316fr 324fr;
+    gap: 2rem;
+    grid-template-rows: 11rem;
+}
+
+.e5{
+    grid-column: 1/4;
+}
+
+.e8 {
+    display: flex;
+    gap: 2rem;
+}

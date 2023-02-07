@@ -6,6 +6,7 @@ import styles from "./Donut.module.css";
 import arrow from "../assets/arrow.svg";
 
 const Donut = (props) => {
+  let consumer = props.consumer;
   const data = [
     { name: "A", x: props.a, fill: "#EEF8FF" },
     { name: "B", x: props.b, fill: "#22AFFF" },
@@ -15,22 +16,30 @@ const Donut = (props) => {
   ];
 
   return (
-    <Card>
+    <Card dark={consumer}>
       <div className={styles["customer-count"]}>
-        <span className={styles.title}>Total Inventory Sold</span>
+        <span className={styles.title}>
+          {consumer ? "Inventory Categorization" : "Total Inventory Sold"}
+        </span>
         <div className={styles.donut}>
-          <span className={styles.label}>$2000</span>
+          <span className={styles.label}>
+            {consumer ? (
+              <div className={styles["center-div"]}>
+                <span>2000</span>
+                <span className={styles['center-subheading']}>Items Purchased</span>
+              </div>
+            ) : (
+              "$2000"
+            )}
+          </span>
           <RadialBarChart
-     
             width={250}
             height={250}
             data={data}
-            innerRadius={60}
+            innerRadius={70}
             outerRadius={150}
             startAngle={90}
             endAngle={-270}
-           
-           
           >
             <RadialBar
               minAngle={0}

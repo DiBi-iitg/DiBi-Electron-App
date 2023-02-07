@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Ridley-grotesk;
+  font-weight: regular;
+  src: url("../../../fonts/ridley-grotesk/Ridley\ Grotesk\ Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: HKGrotesk;
+  font-weight: regular;
+  src: url("../../../fonts/hk-grotesk/HKGrotesk-Medium.otf") format("opentype");
+}
+.container {
+  height: 41rem;
+  overflow-y: scroll;
+}
+
+.title {
+  font-family: "Ridley-grotesk";
+  font-size: 2.2rem;
+
+  color: white;
+  margin-left: 0.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+.reminders {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+

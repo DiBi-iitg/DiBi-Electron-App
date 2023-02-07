@@ -10,7 +10,7 @@
   src: url("../../../fonts/hk-grotesk/HKGrotesk-Medium.otf") format("opentype");
 }
 .container {
-  height: 40rem;
+  height: 41rem;
   overflow-y: scroll;
 }
 

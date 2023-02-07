@@ -3,39 +3,40 @@ import styles from "./SideBar.module.css";
 import dashBoardIcon from "../../../assets/dashboard.svg";
 import profileIcon from "../../../assets/profile.svg";
 
-const SideBar = () => {
-  const [selected, setSelected] = useState(0);
-
-  const toggleHandler = () => {
-    setSelected((selected) => 1 - selected);
-  };
+const SideBar = (props) => {
+  
+  
 
   return (
     <div className={styles.sidebar}>
       <div className={styles.list}>
         <span className={styles.title}>DiBi</span>
         <div
-          className={`${selected === 0 ? styles["selected"] : ""} ${
+          className={`${props.selected === 0 ? styles["selected"] : ""} ${
             styles["icon-div"]
           }`}
-          onClick={toggleHandler}
+          onClick={() => {
+            props.toggleHandler(0);
+          }}
         >
           <img
             className={`${styles.icon} ${
-              selected === 0 ? styles["icon-selected"] : ""
+              props.selected === 0 ? styles["icon-selected"] : ""
             }`}
             src={dashBoardIcon}
           ></img>
         </div>
         <div
-          className={`${selected === 1 ? styles["selected"] : ""} ${
+          className={`${props.selected === 1 ? styles["selected"] : ""} ${
             styles["icon-div"]
           } `}
-          onClick={toggleHandler}
+          onClick={() => {
+            props.toggleHandler(1);
+          }}
         >
           <img
             className={`${styles.icon} ${
-              selected === 1 ? styles["icon-selected"] : ""
+              props.selected === 1 ? styles["icon-selected"] : ""
             }`}
             src={profileIcon}
           ></img>
