@@ -16,9 +16,54 @@ const CustomersList = () => {
           <span className={styles["main-title"]}>Ashneer Grover</span>
           <span className={styles["sub-title"]}>Male, 2 visits per week</span>
         </div>
-        <span className={styles.price}>₹800</span>
+        <span className={styles.price}>₹8,567</span>
         <div className={styles["details-date"]}>
           <div className={styles["date-time"]}>12:00 pm, 21st Feb 2023</div>
+          <div className={styles["detail-row"]}>
+            <a href="#" className={styles.details}>
+              <div className={styles.flex}>
+                View details
+                <img src={arrowU} />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+
+    
+    rows.push(
+      <div className={styles["consumer-card"]}>
+        <div className={styles.divider}></div>
+        <div className={styles["consumer-detail"]}>
+          <span className={styles["main-title"]}>Vijay Mallya</span>
+          <span className={styles["sub-title"]}>Male, 4 visits per week</span>
+        </div>
+        <span className={styles.price}>₹12,000</span>
+        <div className={styles["details-date"]}>
+          <div className={styles["date-time"]}>6:52 pm, 1st Feb 2023</div>
+          <div className={styles["detail-row"]}>
+            <a href="#" className={styles.details}>
+              <div className={styles.flex}>
+                View details
+                <img src={arrowU} />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+
+    rows.push(
+      <div className={styles["consumer-card"]}>
+        <div className={styles.divider}></div>
+        <div className={styles["consumer-detail"]}>
+          <span className={styles["main-title"]}>Namita Thapar</span>
+          <span className={styles["sub-title"]}>Female, 1 visit per week</span>
+        </div>
+        <span className={styles.price}>₹16,789</span>
+        <div className={styles["details-date"]}>
+          <div className={styles["date-time"]}>6:52 pm, 1st Feb 2023</div>
           <div className={styles["detail-row"]}>
             <a href="#" className={styles.details}>
               <div className={styles.flex}>

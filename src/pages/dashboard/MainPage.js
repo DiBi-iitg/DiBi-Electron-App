@@ -12,7 +12,7 @@ const MainPage = () => {
         <AvgData
           title="Average Order Value"
           increase={true}
-          stat={"1200"}
+          stat={"9,870"}
           percent="7.8"
         />
       </div>
@@ -20,7 +20,7 @@ const MainPage = () => {
         <AvgData
           title="Total Value Sold"
           increase={false}
-          stat={"29,90,829"}
+          stat={"3,12,896"}
           percent="9.5"
         />
       </div>
@@ -28,7 +28,8 @@ const MainPage = () => {
         <AvgData
           title="Total Customer Count"
           increase={true}
-          stat={"90,99,893"}
+          rupee="true"
+          stat={"336"}
           percent="12.5"
         />
       </div>

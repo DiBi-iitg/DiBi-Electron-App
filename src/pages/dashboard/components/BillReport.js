@@ -13,7 +13,7 @@ const BillReport = ({ txns = [] }) => {
 				<div className={styles["consumer-card"]}>
 					<div className={styles.divider}></div>
 					<div className={styles["consumer-detail"]}>
-						<span className={styles["main-title"]}>{txn.consumerDetail}</span>
+						<span className={styles["main-title"]}>Asheneer Grover</span>
 						<span className={styles["sub-title"]}>{txn.invoiceNumber}</span>
 					</div>
 					<span className={styles.price}>&#8377;{txn.totalAmount}</span>

@@ -10,7 +10,7 @@ const AvgData = (props) => {
           <span className={styles["main-data"]}>{props.title}</span>
           <IncreaseCard increase={props.increase} percent={props.percent} />
         </div>
-        <span className={styles["sub-data"]}>&#x20B9; {props.stat}</span>
+        <span className={styles["sub-data"]}>{props.rupee==null ? '₹' : ''} {props.stat}</span>
       </div>
     </div>
   );

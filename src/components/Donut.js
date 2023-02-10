@@ -58,22 +58,22 @@ const Donut = (props) => {
         <div className={styles["color-palette"]}>
           <div className={styles["color-segment"]}>
             <div className={`${styles.palette} ${styles.blue1}`}></div>
-            <span className={styles["color-text"]}>Food</span>
+            <span className={styles["color-text"]}>Footwear</span>
           </div>
           <div className={styles["color-segment"]}>
             <div className={`${styles.palette} ${styles.dim}`}></div>
 
-            <span className={styles["color-text"]}>Stationary</span>
+            <span className={styles["color-text"]}>Sarees</span>
           </div>
           <div className={styles["color-segment"]}>
             <div className={`${styles.palette} ${styles.white1}`}></div>
 
-            <span className={styles["color-text"]}>Clothes</span>
+            <span className={styles["color-text"]}>Formals</span>
           </div>
           <div className={styles["color-segment"]}>
             <div className={`${styles.palette} ${styles.ocean}`}></div>
 
-            <span className={styles["color-text"]}>Drinks</span>
+            <span className={styles["color-text"]}>Casuals</span>
           </div>
         </div>
         <div className={styles["detail-row"]}>

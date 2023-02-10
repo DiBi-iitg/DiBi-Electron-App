@@ -34,8 +34,8 @@ const App = () => {
             )}
           </div>
         </button>
-        <VendorPage/>
-        {/* {selected === 0 ? <MainPage /> : <ConsumerPage />} */}
+        {/* <VendorPage/> */}
+        {selected === 0 ? <MainPage /> : <ConsumerPage />}
       </div>
     </>
   );
